@@ -1,0 +1,15 @@
+:root {
+    --md-primary-fg-color:        #5A5A5A;
+    --md-primary-fg-color--light: #ECB7B7;
+    --md-primary-fg-color--dark:  #90030C;
+    --md-accent-fg-color: #00A1DD;
+  }
+html a[title="Twitter"].md-social__link svg {
+    color: #00acee;
+}
+html a[title="Github"].md-social__link svg {
+  color: #00A1DD;
+}
+html a[title="LinkedIN"].md-social__link svg {
+  color: #1a68bf;
+}

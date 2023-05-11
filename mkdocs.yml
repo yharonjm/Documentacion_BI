@@ -1,0 +1,69 @@
+site_name: Documentación Sysman B.I
+site_url: https://Documentacion_BI.com/
+nav:
+    - Inicio: index.md
+    - Arquitectura: Arquitectura.md
+    - Automatización: Automatizacion.md
+extra_css:
+  - stylesheets/extra.css
+theme: 
+    name: material
+    logo: images/sysman.ico
+    favicon: images/sysman.ico
+
+    features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    language: es
+    palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: '5A5A5A'
+      accent: '00A1DD'
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: '5A5A5A'
+      accent: '00A1DD'
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      name: Github
+      link: https://sysman.com.co/
+    - icon: fontawesome/brands/twitter
+      name: Twitter
+      link: https://sysman.com.co/
+    - icon: fontawesome/brands/linkedin
+      name: LinkedIN
+      link: https://sysman.com.co/
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+copyright: |
+  &copy; 2023 <a href="https://sysman.com.co/"  target="_blank" rel="noopener">Sysman.S.A.S</a>
+

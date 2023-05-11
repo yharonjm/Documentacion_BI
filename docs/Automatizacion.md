@@ -1,0 +1,5 @@
+# <span style="color: #00A1DD">Descripción del servicio de automatización</span>
+---
+En esta sección tendra una visión general exhaustiva de los scripts de automatización y las tareas programadas utilizadas en esta arquitectura. Estos scripts son fundamentales para la ejecución automática de procesos recurrentes, como la actualización de datos, la generación de informes y la programación de tareas de mantenimiento. La documentación ofrece ejemplos prácticos de scripts y detalla las mejores prácticas para su implementación, asegurando una administración eficiente y confiable del sistema de BI y análisis de datos.
+
+Asimismo, se presentan casos de uso específicos en los que se muestran ejemplos prácticos de cómo utilizar los scripts y las tareas programadas para optimizar la productividad y la eficiencia en diferentes escenarios empresariales. Estos casos de uso abarcan desde la automatización de informes periódicos y la programación de actualizaciones de datos en tiempo real hasta la implementación de algoritmos de aprendizaje automático y la generación de alertas basadas en reglas predefinidas.
