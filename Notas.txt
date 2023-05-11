@@ -1,0 +1,7 @@
+1)Si sale:
+ERROR    -  Required dependencies of "social" plugin not found. Install with: pip install pillow cairosvg
+usar:
+pip install mkdocs-material mkdocs-material-extensions --upgrade
+2)Si por el sitema operativo windows surgen errores use.
+pip install pipwin
+pipwin install cairocffi
