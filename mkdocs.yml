@@ -1,8 +1,8 @@
 site_name: Documentación Sysman B.I
 site_url: https://Documentacion_BI.com/
 nav:
+    - Arquitecturas: Arquitectura.md
     - Inicio: index.md
-    - Arquitectura: Arquitectura.md
     - Automatización: Automatizacion.md
 extra_css:
   - stylesheets/extra.css
