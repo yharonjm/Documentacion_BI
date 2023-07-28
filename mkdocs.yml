@@ -1,9 +1,10 @@
-site_name: Documentación Sysman B.I
+site_name: Documentación Sysman.S.A.S
 site_url: https://Documentacion_BI.com/
 nav:
-    - Arquitecturas: Arquitectura.md
-    - Inicio: index.md
-    - Automatización: Automatizacion.md
+    - Machine-Learning: Machine_Learning.md
+    #- Arquitectura de Analitica: Arquitectura.md
+    #- Inicio: index.md
+    #- Automatización: Automatizacion.md
 extra_css:
   - stylesheets/extra.css
 theme: 
