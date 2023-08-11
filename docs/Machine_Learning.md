@@ -2,9 +2,19 @@
 ---
 En la siguiente imagen se observa una representación gráfica de la arquitectura propuesta para la aplicación de Machine Learning sobre los datos de Seguridad ciudadana:
 
-![Arquitectura](images\ArqML.png "ML_Arquitectura")
+![Arquitectura](images\ARQ_V1.png "ML_Arquitectura")
 
-## <span style="color: #00A1DD">Primer avance</span>
+## <span style="color: #00A1DD">Análisis de Datos</span>
+Los primeros dies registros del dataset para cada una de los atributos o clases se muestran como muestra de ejemplo en la siguiente imagen:
+
+![Arquitectura](images\head_data.png "ML_Arquitectura")
+
+Se debe anexar que cada uno de los atributos llegan con la característica de ser datos tipo object y que se debe realizar una transformación para el consumo por parte del modelo.
+
+![Arquitectura](images\data_type.png "ML_Arquitectura")
+
+Es importante también definir el valor de considerar la integración de todas las columnas dentro del entrenamiento, por lo que se llevara a cabo entrenamientos con todas las clases y alternativas al considerar solo clases consideradas como relevantes.
+## <span style="color: #00A1DD">Primeros avances</span>
 Como primer objetivo se sugiere encontrar un modelo con el cual a partir de la data de seguridad ciudadana correspondiente a hurtos lograr predecir la comuna más probable donde se llevara a cabo futuros hechos delictivos de manera mas precisa que con la analítica del histórico de registros. Este modelo en primer lugar se entrenara teniendo en cuenta los campos **categóricos** del dataset correspondientes al dia de la semana del hecho y su respectiva hora.
 
 
