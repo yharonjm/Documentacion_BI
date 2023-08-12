@@ -10,19 +10,14 @@ jobs:
   deploy:
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
         with:
           python-version: 3.x
-      - name: Cache Python dependencies
-        uses: actions/cache@v2
+      - uses: actions/cache@v2
         with:
-          key: Windows-pip-${{ hashFiles('**/requirements.txt') }}
-          path: |
-              ~/.cache/pip
-              C:\hostedtoolcache\windows\Python\3.11.4\x64
-        env:
-            cache-name: cache-python-${{ runner.os }}-${{ hashFiles('**/requirements.txt') }}
+          key: ${{ github.ref }}
+          path: .cache
       - run: pip install mkdocs
       - run: pip install mkdocs-material
       - run: pip install mkdocs-material-extensions
