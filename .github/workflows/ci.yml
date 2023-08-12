@@ -10,14 +10,14 @@ jobs:
   deploy:
     runs-on: windows-latest
     steps:
+      - uses: actions/checkout@v3
+      # - uses: actions/setup-python@v4
+      #   with:
+      #     python-version: 3.x
       - name: Installing node.js
         uses: actions/setup-node@v3 # Used to install node environment - XXX https://github.com/actions/setup-node
         with:
           node-version: 18
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
-        with:
-          python-version: 3.x
       - uses: actions/cache@v2
         with:
           key: ${{ github.ref }}
