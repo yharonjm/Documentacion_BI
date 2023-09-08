@@ -1,8 +1,8 @@
 site_name: Documentación Sysman.S.A.S
 site_url: https://Documentacion_BI.com/
 nav:
+    - Historia de usuario: US.md
     - Machine-Learning: Machine_Learning.md
-    #- Arquitectura de Analitica: Arquitectura.md
     #- Inicio: index.md
     #- Automatización: Automatizacion.md
 extra_css:
@@ -67,4 +67,3 @@ markdown_extensions:
 
 copyright: |
   &copy; 2023 <a href="https://sysman.com.co/"  target="_blank" rel="noopener">Sysman.S.A.S</a>
-
