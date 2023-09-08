@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://Documentacion_BI.com/</loc>
+         <lastmod>2023-09-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Documentacion_BI.com/Arquitectura/</loc>
+         <lastmod>2023-09-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Documentacion_BI.com/Automatizacion/</loc>
+         <lastmod>2023-09-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Documentacion_BI.com/Machine_Learning/</loc>
+         <lastmod>2023-09-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Documentacion_BI.com/US/</loc>
+         <lastmod>2023-09-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
